@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    background-color: rgb(15 23 42);
+    color: rgb(209 213 219);
+}
+.table{
+    display: table;
+    border-spacing: 2.5rem 2.5rem;
+}
+th{
+    color: rgb(2 132 199);
+}
+
+input{
+    padding: 4px 4px 3px 4px;
+    border-radius: 5%;
+    margin-right: 10px;
+}
